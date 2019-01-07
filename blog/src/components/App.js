@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import PostList from './PostList';
 
 class App extends Component {
   render() {
     return (
       <div className="ui container">
-        Hello, this is the frontpage of Blog App.
+        <PostList />
       </div>
     );
   }
